@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+string nama;
+int i,j, UpahNormal, UpahPotong, JmlKaryawan;
+     i <=30; UpahNormal=3000000; j<=JmlKaryawan;
+    
+    cout<<"Menghitung Upah Karyawan Bulan Ini"<<endl<<"Input Jumlah Karyawan";
+    cin>>JmlKaryawan;
+    
+    
+    for (int j= 1; j<=JmlKaryawan; j++){
+        cout<<"Nama Karyawan "<< j << ":";
+        cin>>nama;
+        cout<<"Input Hari Masuk"<<":";
+        cin>>i;
+    if (i<30)
+     { UpahPotong= UpahNormal-(100000*(30-i));
+       cout<<"Upah Bulan ini Rp "<< UpahPotong<<endl;}
+    else
+    {  cout<<"Upah Bulan ini Rp"<< UpahNormal<<endl;}
+    }
+    return 0;
+}
